@@ -13,18 +13,30 @@ public class GameManager : MonoBehaviour
 
     public int Catch_num = 0;
 
+    public Canvas end;
+
      void Update()
     {
         stick = GameObject.FindGameObjectsWithTag("棍子");
-        if (ran_time < Time.time - lastTime)
+        if(stick.Length == 0)
         {
-            Random_Drop();
+            end.enabled=true;
+           
+        }
+        else
+        { 
+            if (ran_time < Time.time - lastTime)
+            {
+                Random_Drop();
+            }
+            
         }
     }
 
     private void Start()
     {
-        lastTime = 4;
+        lastTime = Time.time + 4;
+        end.enabled = false;
         ran_time = Random.Range(0.1f, 1.2f);
     }
 
@@ -34,7 +46,7 @@ public class GameManager : MonoBehaviour
         stick[ran].GetComponent<Stick>().enabled = true;
         lastTime = Time.time;
         ran_time = Random.Range(0.8f, 2f);
-        Destroy(stick[ran], 10f);
+        Destroy(stick[ran], 2f);
         
 
     }
