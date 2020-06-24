@@ -10,7 +10,10 @@ public class GameManager1 : MonoBehaviour
 
     public Canvas end;
 
-     void Update()
+    public AudioSource DropAudio;
+
+
+    void Update()
     {
         stick = GameObject.FindGameObjectsWithTag("棍子");
         if(stick.Length == 0)
@@ -38,6 +41,7 @@ public class GameManager1 : MonoBehaviour
     {
         int ran = Random.Range(0, stick.Length);
         stick[ran].GetComponent<Stick1>().enabled = true;
+        DropAudio.Play();
         Destroy(stick[ran], 0.8f);
         
 

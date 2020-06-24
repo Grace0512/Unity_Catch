@@ -15,7 +15,10 @@ public class GameManager : MonoBehaviour
 
     public Canvas end;
 
-     void Update()
+    public AudioSource DropAudio;
+   
+
+    void Update()
     {
         stick = GameObject.FindGameObjectsWithTag("棍子");
         if(stick.Length == 0)
@@ -44,9 +47,10 @@ public class GameManager : MonoBehaviour
     {
         int ran = Random.Range(0, stick.Length);
         stick[ran].GetComponent<Stick>().enabled = true;
+        DropAudio.Play();
         lastTime = Time.time;
         ran_time = Random.Range(0.8f, 2f);
-        Destroy(stick[ran], 2f);
+        Destroy(stick[ran], 1.0f);
         
 
     }
