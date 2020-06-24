@@ -692,4 +692,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Meau.unity
   - Assets/Scenes/1Player.unity
   - Assets/Scenes/2Player.unity
-  playerPath: C:/grace/Unity_Catch/junkgame
+  playerPath: C:/grace/Unity_Catch_WEB
