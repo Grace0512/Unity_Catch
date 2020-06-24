@@ -42,6 +42,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -107,6 +111,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -171,6 +179,10 @@ ScriptsOnlyBuild:
     - Class: 48
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -245,7 +257,7 @@ ScriptsOnlyBuild:
     className: GroupTrack
   - hash:
       serializedVersion: 2
-      Hash: 4dd53dbc90a33e9a9730e04502085940
+      Hash: 548ef930e2ebb8f28dc8c8fa4b46bd3b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EndScore
@@ -329,7 +341,7 @@ ScriptsOnlyBuild:
     className: PhysicsRaycaster
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 938cc443cc10ac1e1789b254650b6aa9
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: NextLevel2
@@ -371,7 +383,7 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
-      Hash: 8ac390763ddb44e7057c36dda862f328
+      Hash: 215b91078c71623e914196aec094a994
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager
@@ -413,7 +425,7 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 938cc443cc10ac1e1789b254650b6aa9
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: NextLevel1
@@ -437,7 +449,7 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
-      Hash: 1a8ca250bf4b1bdcd9d449e3c178d965
+      Hash: 4b78df653828466fc4167d81b3e54ae7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager1
@@ -449,7 +461,7 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAnimator
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 938cc443cc10ac1e1789b254650b6aa9
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Restart
@@ -485,7 +497,7 @@ ScriptsOnlyBuild:
     className: VerticalLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: a7b0ef611b1a282e220c97e4b284cbb6
+      Hash: e577e4e7612e3c9053d64d94ebc118a5
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CountBack
@@ -563,7 +575,7 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
-      Hash: 0e6ba2c7c06613f43cd29668521bb04d
+      Hash: a265ffe72f8f0d52b9f7d3abf4a063ed
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Stick
@@ -671,7 +683,7 @@ ScriptsOnlyBuild:
     className: Slider
   - hash:
       serializedVersion: 2
-      Hash: 79fa5e1a8b0b8ab4b8c8d3d9e65514e7
+      Hash: cb7ee5338f4b06b68fb1ea1969773de7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Stick1
@@ -692,4 +704,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Meau.unity
   - Assets/Scenes/1Player.unity
   - Assets/Scenes/2Player.unity
-  playerPath: D:/GameDesign/CSharp/JunkGameMakers/Unity_Catch/New Unity Project/123
+  playerPath: C:/Users/btryt/Documents/GitHub/Unity_Catch/New Unity Project/junkgame
