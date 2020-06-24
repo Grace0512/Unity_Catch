@@ -18,7 +18,7 @@ public class Stick : MonoBehaviour
     public void MouseDown()
     {
         gm.Catch_num++;
-        Get.GetComponent<Text>().text = "Get:" + gm.Catch_num;
+        Get.GetComponent<Text>().text = "" + gm.Catch_num;
         Destroy(gameObject);
     }
 
